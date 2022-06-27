@@ -51,4 +51,10 @@
     .custom_col {
         width: calc(100% / 2);
     }
+
+    .row.col.custom_col1 {
+        width: 50%;
+    }
+
+   
 }
