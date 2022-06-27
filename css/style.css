@@ -1,0 +1,40 @@
+.debug *{
+    border: 2px solid blue;
+}
+
+.debug .header_top {
+    min-height: 50px;
+}
+
+.debug .header_top_small {
+    min-height: 10px;
+}
+
+.debug .header_top_large {
+    min-height: 40px;
+}
+
+.debug .jumbotron {
+    min-height: 200px;
+}
+
+.debug .jumbotron_description {
+    min-height: 100px;
+}
+
+
+.debug .description {
+    min-height: 80px;
+}
+
+.debug .device_img {
+    min-height: 200px;
+}
+
+.debug .banner {
+    min-height: 200px;
+}
+
+.debug .release {
+    min-height: 200px;
+}
