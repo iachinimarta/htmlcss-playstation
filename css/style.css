@@ -27,6 +27,10 @@
     min-height: 80px;
 }
 
+/* .debug .cards {
+    background-color: antiquewhite;
+} */
+
 .debug .device_img {
     min-height: 200px;
 }
@@ -35,6 +39,16 @@
     min-height: 200px;
 }
 
+.debug .banner_description {
+    min-height: 100px;
+}
+
 .debug .release {
     min-height: 200px;
+}
+
+@media all and (max-width: 576px) {
+    .custom_col {
+        width: calc(100% / 2);
+    }
 }
