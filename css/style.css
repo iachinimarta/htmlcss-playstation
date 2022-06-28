@@ -52,7 +52,11 @@
     background-size: cover;
     background-position: center;
     min-height: 500px;
-   
+
+}
+
+.description_bgc {
+    background-color: #1F1F1F;
 }
 
 .debug .release {
@@ -65,4 +69,8 @@
 
 .custom_color_blue {
     color: #4093DA;
+}
+
+.custom_bgc_grey {
+    background-color: #767676;;
 }
