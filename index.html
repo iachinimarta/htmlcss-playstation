@@ -11,52 +11,86 @@
     </head>
     <body class="debug">
         
-        <header class="header_top">
-            <div class="header_top_small">
-                <div class="text-end">SONY</div>
+        <header class="header_top fixed-top ">
+            <div class="header_top_small text-end py-1 pe-3">
+                <img src="img/sony_logo.svg" alt="sony-logo">
             </div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light pb-0">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#">Navbar w/ text</a>
+                  <a class="navbar-brand" href="#">
+                        <img  class="logo_ps" src="img/play_logo.svg" alt="logo-PS">
+                    </a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarText">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active" aria-current="page" href="#">Giochi<i class="ps-2 bi bi-chevron-down"></i></a>
+                            </li>
+                            <li class="nav-item color-black">
+                                <a class="text-dark nav-link" href="#">Hardware<i class="ps-2 bi bi-chevron-down"></i></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Features</a>
+                                <a class="text-dark nav-link" href="#">Servizi<i class="ps-2 bi bi-chevron-down"></i></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Pricing</a>
+                                <a class="text-dark nav-link" href="#">Novità<i class="ps-2 bi bi-chevron-down"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="text-dark nav-link" href="#">Fai acquisti<i class="ps-2 bi bi-chevron-down"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="text-dark nav-link" href="#">Supporto<i class="ps-2 bi bi-chevron-down"></i></a>
                             </li>
                         </ul>
                         <span class="navbar-text">
-                        Navbar text with an inline element
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">My PlayStation<i class="ps-2 bi bi-chevron-down"></i></a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <a class="nav-link p-0 " href="#">
+                                        <button type="button" class="btn btn-dark rounded-pill">Accedi</button>
+                                    </a>
+                                </li>
+                                <li class="nav-item ps-2">
+                                    <a class="nav-link" href="#">
+                                        <i class="bi bi-search"></i>
+                                    </a>
+                                </li>
+                            </ul>
                         </span>
                   </div>
                 </div>
             </nav>
         </header>
 
-        <section class="jumbotron container-fluid d-flex align-items-end">
-            <div class="row jumbotron_description ">
-                <div class="col-12 col-xl-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam aut sint quae inventore explicabo perferendis eum quos! Possimus illum fugiat dignissimos dolorum odio, perspiciatis vitae? Ratione perspiciatis repudiandae iste sequi!</div>
-            </div>
-        </section>
-        
+        <main class="main_mt">
 
-        <main>
+            <section class="jumbotron">
+                <div class="container-fluid">
+                    <div class="row jumbotron_description ">
+                        <div class="col-12 col-lg-4 text-white">
+                            <img  class="w-50 pb-3" src="img/returnal-hero-banner-logo.png" alt="returnal">
+                            <h1>Rompi il cerchio</h1>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam aut sint quae inventore explicabo perferendis eum quos! Possimus illum fugiat dignissimos dolorum odio, perspiciatis vitae? Ratione perspiciatis repudiandae iste sequi!</p>
+                            <button type="button" class="btn btn-danger rounded-pill">Acquista ora</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+        
             <div class="container">
-                <section class="row cards ">
-                    <div class="custom_col col-sm-4 col-xl-2"> CARD </div>
-                    <div class="custom_col col-sm-4 col-xl-2"> CARD </div>
-                    <div class="custom_col col-sm-4 col-xl-2"> CARD </div>
-                    <div class="custom_col col-sm-4 col-xl-2"> CARD </div>
-                    <div class="custom_col col-sm-4 col-xl-2"> CARD </div>
-                    <div class="custom_col col-sm-4 col-xl-2"> CARD </div>
+                <section class="row row-cols-2 row-cols-sm-3 row-cols-lg-6">
+                    <div class="col card"> CARD </div>
+                    <div class="col"> CARD </div>
+                    <div class="col"> CARD </div>
+                    <div class="col"> CARD </div>
+                    <div class="col"> CARD </div>
+                    <div class="col"> CARD </div>
                 </section>
     
                 <section class="description text-center">Ecco la PlayStation5</section>
@@ -87,19 +121,19 @@
             <div class="container">
                 <section class="description">Nuove uscite</section>
 
-                <section class="row cards">
-                    <div class="custom_col col-sm-4 col-xl-2"> CARD </div>
-                    <div class="custom_col col-sm-4 col-xl-2"> CARD </div>
-                    <div class="custom_col col-sm-4 col-xl-2"> CARD </div>
-                    <div class="custom_col col-sm-4 col-xl-2"> CARD </div>
-                    <div class="custom_col col-sm-4 col-xl-2"> CARD </div>
-                    <div class="custom_col col-sm-4 col-xl-2"> CARD </div>
-                    <div class="custom_col col-sm-4 col-xl-2"> CARD </div>
-                    <div class="custom_col col-sm-4 col-xl-2"> CARD </div>
-                    <div class="custom_col col-sm-4 col-xl-2"> CARD </div>
-                    <div class="custom_col col-sm-4 col-xl-2"> CARD </div>
-                    <div class="custom_col col-sm-4 col-xl-2"> CARD </div>
-                    <div class="custom_col col-sm-4 col-xl-2"> CARD </div>
+                <section class="row row row-cols-2 row-cols-sm-3 row-cols-lg-6">
+                    <div class="col"> CARD </div>
+                    <div class="col"> CARD </div>
+                    <div class="col"> CARD </div>
+                    <div class="col"> CARD </div>
+                    <div class="col"> CARD </div>
+                    <div class="col"> CARD </div>
+                    <div class="col"> CARD </div>
+                    <div class="col"> CARD </div>
+                    <div class="col"> CARD </div>
+                    <div class="col"> CARD </div>
+                    <div class="col"> CARD </div>
+                    <div class="col"> CARD </div>
                     
                 </section>
 

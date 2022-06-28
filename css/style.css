@@ -2,29 +2,41 @@
     border: 2px solid blue;
 }
 
-.debug .header_top {
-    min-height: 50px;
+/* **************************************************** HEADER */
+.header_top_small {
+   background-color: black;
 }
 
-.debug .header_top_small {
-    min-height: 10px;
+.header_top_small img {
+    max-width: 75px;
 }
 
-.debug .header_top_large {
-    min-height: 40px;
+/* **************************************************** MAIN */
+
+.main_mt {
+    margin-top: 100px;
 }
 
-.debug .jumbotron {
-    min-height: 200px;
+.jumbotron {
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
 }
 
-.debug .jumbotron_description {
-    min-height: 100px;
+.jumbotron_description {
+    padding-top: 300px;
+    padding-bottom: 30px;
+    padding-left: 20px;
 }
-
 
 .debug .description {
     min-height: 80px;
+}
+
+.card {
+    outline: solid 2px blue;
+    outline-offset: 5px;
 }
 
 /* .debug .cards {
