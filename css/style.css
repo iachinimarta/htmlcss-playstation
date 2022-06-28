@@ -13,6 +13,10 @@
     background-color: #767676;;
 }
 
+.custom_bgc_lightgrey {
+    background-color: #BEBCBB;
+} 
+
 .custom_bgc_darkblue {
     background-color: #161C3B;
 }
@@ -49,14 +53,18 @@
     padding-left: 20px;
 }
 
-.card {
-    border: solid 2px blue;
-    outline-offset: 2px;
+.img-thumbnail {
+    border: 2px solid #4093DA;
 }
 
-/* .debug .cards {
-    background-color: antiquewhite;
-} */
+.rounded_card {
+    border-radius: 20px;
+}
+
+.border_bottom {
+    border-bottom: 2px solid #4093DA;
+}
+
 
 .banner_description {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
@@ -68,6 +76,10 @@
 
 .description_bgc {
     background-color: #1F1F1F;
+}
+
+.custom_btn {
+   width: 250px;
 }
 
 /* **************************************************** FOOTER */
