@@ -1,6 +1,25 @@
 /* .debug *{
     border: 2px solid blue;
 } */
+.custom_color_grey {
+    color: #767676;
+}
+
+.custom_color_blue {
+    color: #4093DA;
+}
+
+.custom_bgc_grey {
+    background-color: #767676;;
+}
+
+.custom_bgc_darkblue {
+    background-color: #161C3B;
+}
+
+.custom_bgc_lightblue {
+    background-color: #00439C;
+}
 
 /* **************************************************** HEADER */
 .header_top_small {
@@ -39,14 +58,6 @@
     background-color: antiquewhite;
 } */
 
-.debug .device_img {
-    min-height: 200px;
-}
-
-.debug .banner {
-    min-height: 200px;
-}
-
 .banner_description {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
@@ -59,18 +70,21 @@
     background-color: #1F1F1F;
 }
 
-.debug .release {
-    min-height: 200px;
+/* **************************************************** FOOTER */
+
+footer li {
+    list-style: none;
 }
 
-.custom_color_grey {
-    color: #767676;
+footer li a {
+    text-decoration: none;
+}
+footer .ps_logo {
+    width: 100px;
 }
 
-.custom_color_blue {
-    color: #4093DA;
+footer .globo_language {
+    width: 20px;
 }
 
-.custom_bgc_grey {
-    background-color: #767676;;
-}
+
