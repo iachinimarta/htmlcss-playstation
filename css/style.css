@@ -75,10 +75,6 @@
     background-color: #1F1F1F;
 }
 
-.custom_btn {
-    width: 250px;
-}
-
 .custom_text_decoration a {
     text-decoration: none;
     color: black;
@@ -127,5 +123,27 @@ footer .globo_language {
     .social_img_size {
         width: 34%;
     }
+}
+
+
+
+/* prova bordi btns */
+
+.button_container_red {
+    border: 3px solid #DC3545;
+    display: inline-block;
+}
+
+.button_container_red:hover .extra_border {
+    border: 2px solid black;
+}
+
+.button_container_blue {
+    border: 3px solid #0E6DFD;
+    display: inline-block;
+}
+
+.button_container_blue:hover .extra_border {
+    border: 2px solid white;
 }
 
