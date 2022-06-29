@@ -1,6 +1,3 @@
-/* .debug *{
-    border: 2px solid blue;
-} */
 .custom_color_grey {
     color: #767676;
 }
@@ -27,7 +24,7 @@
 
 /* **************************************************** HEADER */
 .header_top_small {
-   background-color: black;
+    background-color: black;
 }
 
 .header_top_small img {
@@ -37,7 +34,7 @@
 /* **************************************************** MAIN */
 
 .main_mt {
-    margin-top: 100px;
+    margin-top: 90px;
 }
 
 .jumbotron {
@@ -66,7 +63,7 @@
 }
 
 
-.banner_description {
+.banner_takestwo {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
     background-position: center;
@@ -79,7 +76,16 @@
 }
 
 .custom_btn {
-   width: 250px;
+    width: 250px;
+}
+
+.custom_text_decoration a {
+    text-decoration: none;
+    color: black;
+}
+
+.custom_opacity {
+    opacity: 0.5;
 }
 
 /* **************************************************** FOOTER */
@@ -99,4 +105,10 @@ footer .globo_language {
     width: 20px;
 }
 
+/* **************************************************** MEDIA-QUERY */
 
+@media all and (min-width: 768px) {
+    .custom_img_size {
+        width: 50%;
+    }
+}

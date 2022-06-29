@@ -9,22 +9,24 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     </head>
-    <body class="debug">
-        
+    <body>
+
+        <!-- HEADER  **************************************************** -->
+
         <header class="header_top fixed-top ">
             <div class="header_top_small text-end py-1 pe-3">
                 <img src="img/sony_logo.svg" alt="sony-logo">
             </div>
 
-            <nav class="navbar navbar-expand-lg navbar-light bg-light pb-0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="#">
                         <img  class="logo_ps" src="img/play_logo.svg" alt="logo-PS">
                     </a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarText">
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">Giochi<i class="ps-2 bi bi-chevron-down"></i></a>
@@ -45,7 +47,7 @@
                                 <a class="text-dark nav-link" href="#">Supporto<i class="ps-2 bi bi-chevron-down"></i></a>
                             </li>
                         </ul>
-                        <span class="navbar-text">
+                        <div class="navbar-text">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
                                     <a class="nav-link active" aria-current="page" href="#">My PlayStation<i class="ps-2 bi bi-chevron-down"></i></a>
@@ -61,31 +63,37 @@
                                     </a>
                                 </li>
                             </ul>
-                        </span>
-                  </div>
+                        </div>
+                    </div>
                 </div>
             </nav>
         </header>
 
+        <!-- MAIN  **************************************************** -->
+
         <main class="main_mt">
 
-            <section class="jumbotron">
-                <div class="container-fluid">
+            <!-- JUMBOTRON -->
+
+            <div class="jumbotron">
+                <div class="container">
                     <div class="row jumbotron_description ">
                         <div class="col-12 col-lg-4 text-white">
                             <img  class="w-50 pb-3" src="img/returnal-hero-banner-logo.png" alt="returnal">
-                            <h1>Rompi il cerchio</h1>
+                            <div class="h1">Rompi il cerchio</div>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam aut sint quae inventore explicabo perferendis eum quos! Possimus illum fugiat dignissimos dolorum odio, perspiciatis vitae? Ratione perspiciatis repudiandae iste sequi!</p>
-                            <button type="button" class="btn btn-danger rounded-pill">Acquista ora</button>
+                            <a href="#" type="button" class="btn btn-danger rounded-pill">Acquista ora</a>
                         </div>
                     </div>
                 </div>
-                
-            </section>
+            </div>
         
             <div class="container">
-                <section class="row row-cols-2 row-cols-sm-3 row-cols-lg-6 py-5 gy-3">
-                    <div class="col ">
+
+                <!-- JUMBOTRON CARDS -->
+
+                <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-6 py-5 mb-5 gy-3">
+                    <div class="col">
                         <img  class="img-fluid img-thumbnail rounded_card" src="img/returnal-listing-thumb-01-ps5.jpg" alt="returnal">
                     </div>
                     
@@ -109,78 +117,87 @@
                         <img class="img-fluid rounded_card" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="rachet">
                     </div>
                     
-                </section>
-    
+                </div>
+                
+                <!-- PS CONTROLLERS INTRO -->
+
                 <div class="h5 text-center custom_color_blue ">PLAY HAS NO LIMITS</div>
-                <div class="h1 text-center mb-4">Ecco la PlayStation 5</div>
+                <h1 class="text-center mb-4">Ecco la PlayStation 5</h1>
                 <div class="h4 text-center mb-5 custom_color_grey">Tuffati in nuove possibilità di gioco completamente inaspettate</div>
     
-                <section class="row device_img align-items-center">
+                <div class="row align-items-center">
 
                     <div class="col-xs-12 col-md-6">
+
                         <div class="h1">Console PlayStation 5</div>
-                        <div class="h4 custom_color_grey py-3">Sperimenta la nuova generazione di incredibili giochi PlayStation</div>
-                        <button type="button" class="btn btn-primary rounded-pill">Maggiori informazioni</button>
+                        <p class="h4 custom_color_grey py-3">Sperimenta la nuova generazione di incredibili giochi PlayStation</p>
+                        <a href="#" type="button" class="btn btn-primary rounded-pill">Maggiori informazioni</a>
+                        
                     </div>
 
                     <img class="col-xs-12 col-md-6" src="img/playstation-5-thumb.png" alt="ps-5">
 
-                </section>
+                </div>
+
+                <!-- PS CONTROLLERS ITEMS -->
     
-                <section class="row row-cols-3 row-cols-md-5 pb-5">
+                <div class="row row-cols-3 row-cols-md-5 pb-5 text-center custom_text_decoration">
                     
                     <div class="col border_bottom">
-                        <div class="d-flex flex-column align-items-center py-3">
-                           <img class="w-50" src="img/playstation-5-thumb.png" alt="ps-5">
-                            <div class="text-center d-none d-md-block">Console PS5</div> 
-                        </div>
-                        
+                        <a href="#" class="py-3">
+                            <img class="img-fluid custom_img_size" src="img/playstation-5-thumb.png" alt="ps-5">
+                            <div class="d-none d-md-block">Console PS5</div> 
+                        </a>
                     </div>
+
                     <div class="col">
-                        <div class="d-flex flex-column align-items-center py-3">
-                            <img class="w-50" src="img/joypad-thumb.png" alt="joypad">
-                            <div class="text-center d-none d-md-block">Controller wireless DualSense™</div>
-                        </div>
-                        
+                        <a href="#" class="py-3 custom_opacity">
+                            <img class="img-fluid custom_img_size" src="img/joypad-thumb.png" alt="joypad">
+                            <div class="d-none d-md-block">Controller wireless DualSense™</div>
+                        </a>
                     </div>
+
                     <div class="col">
-                        <div class="d-flex flex-column align-items-center py-3">
-                            <img class="w-50" src="img/headset-thumb.png" alt="headset">
-                            <div class="text-center d-none d-md-block">Cuffie wireless con microfono PULSE 3™</div>
-                        </div>
-                        
+                        <a href="#" class="py-3 custom_opacity">
+                            <img class="img-fluid custom_img_size" src="img/headset-thumb.png" alt="headset">
+                            <div class="d-none d-md-block">Cuffie wireless con microfono PULSE 3™</div>
+                        </a>
                     </div>
+
                     <div class="col">
-                        <div class="d-flex flex-column align-items-center py-3">
-                           <img class="w-50" src="img/remote-thumb.png" alt="remote">
-                            <div class="text-center d-none d-md-block">Telecomando Media</div> 
-                        </div>
-                        
+                        <a href="#" class="py-3 custom_opacity">
+                            <img class="img-fluid custom_img_size" src="img/remote-thumb.png" alt="remote">
+                            <div class="d-none d-md-block">Telecomando Media</div> 
+                        </a>
                     </div>
+
                     <div class="col"> 
-                        <div class="d-flex flex-column align-items-center py-3">
-                          <img class="w-50" src="img/camera-thumb.jpg" alt="camera">
-                            <div class="text-center d-none d-md-block">Telecamera HD</div>  
-                        </div>
-                        
+                        <a href="#" class="py-3 custom_opacity">
+                            <img class="img-fluid custom_img_size" src="img/camera-thumb.jpg" alt="camera">
+                            <div class="d-none d-md-block">Telecamera HD</div>  
+                        </a>
                     </div>
                     
-                </section>
-    
+                </div>
             </div>
+
+            <!-- BANNER TAKES TWO -->
             
-            <div class="banner container-fluid">
-                <div class="row banner_description ">
-                    <div class="col-12 col-lg-4 text-white py-4">
-                        <img class="w-50 py-3" src="img/it-takes-two-logo.png" alt="takes-two">
-                        <div class="h1">Un'avventura cooperativa selvaggia ti attende</div>
-                        <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis assumenda porro, asperiores doloribus eveniet aliquam eos nam. Libero similique quia at, voluptatem veniam qui saepe itaque suscipit cumque id tempore.</p>
-                        <button type="button" class="btn btn-danger rounded-pill">Acquista ora</button>
+            <div class="banner_takestwo">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-4 text-white py-4">
+                            <img class="w-50 py-3" src="img/it-takes-two-logo.png" alt="takes-two">
+                            <div class="h1">Un'avventura cooperativa selvaggia ti attende</div>
+                            <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis assumenda porro, asperiores doloribus eveniet aliquam eos nam. Libero similique quia at, voluptatem veniam qui saepe itaque suscipit cumque id tempore.</p>
+                            <a href="#" type="button" class="btn btn-danger rounded-pill">Acquista ora</a>
+                        </div>
                     </div>
                 </div>
             </div>
-    
 
+            <!-- NEW GAMES -->
+            
             <div class="container-fluid description_bgc">
                 <div class="py-4">
                     <div class="h4 text-white">Nuove uscite</div>
@@ -188,15 +205,17 @@
                     
                 </div>
 
-                <section class="row row row-cols-2 row-cols-sm-3 row-cols-lg-6 gy-4">
+                <!-- NEW GAMES CARDS -->
+
+                <div class="row row row-cols-2 row-cols-sm-3 row-cols-lg-6 gy-4">
                     <div class="col">
                         <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" class="img-fluid rounded_card" alt="tony">
                         <p class="text-white py-2">Tony Hawks™ Pro Skater™ 1 + 2</p>
                     </div>
 
                     <div class="col">
-                       <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" class="img-fluid rounded_card" alt="crash">
-                       <p class="text-white py-2">Crash Bandicoot 4: It's About Time</p>
+                        <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" class="img-fluid rounded_card" alt="crash">
+                        <p class="text-white py-2">Crash Bandicoot 4: It's About Time</p>
                     </div>
 
                     <div class="col">
@@ -249,89 +268,123 @@
                         <p class="text-white py-2">Crash Bandicoot 4: It's About Time</p> 
                     </div>
 
-                </section>
+                </div>
             </div>
+
+            <!-- PS4 INTRO -->
 
             <div class="container-fluid">
 
                 <div class="h1 text-center py-4">Esplora PlayStation® 4</div>
                 <div class="h4 text-center mb-5 custom_color_grey">Giochi incredibili e intrattenimento senza fine. <br> Non c'è mai stato un momento migliore per giocare sulla tua PS4.</div>
 
-                <section class="row cards">
+                <!-- PS4 FEATURES -->
+
+                <div class="row">
 
                     <div class="col-md-4 col-xs-12">
                         <img class="img-fluid" src="img/ps4-slim-homepage-image-block.jpg" alt="ps4">
                         <div class="h1">PlayStation 4</div>
-                        <div class="h4 custom_color_grey py-4">Giochi incredibili live su PS4, con 1 TB di spazio di archiviazione.</div>
-                        <button type="button" class="btn btn-primary rounded-pill">Scopri di più</button>
+                        <div class="h4 custom_color_grey py-2">Giochi incredibili live su PS4, con 1 TB di spazio di archiviazione.</div>
+                        <a href="#" type="button" class="btn btn-primary rounded-pill">Scopri di più</a>
                     </div>
                     <div class="col-md-4 col-xs-12">
                         <img class="img-fluid pt-2" src="img/double11-202010-tw-psvr.jpg" alt="psVR">
                         <div class="h1">PlayStation VR</div>
                         <div class="h4 custom_color_grey py-2">Oltre 500 titoli ed esperienze di gioco. Scoprili tutti.</div>
-                        <button type="button" class="btn btn-primary rounded-pill">Scopri di più</button>
+                        <a href="#" type="button" class="btn btn-primary rounded-pill">Scopri di più</a>
                     </div>
                     <div class="col-md-4 col-xs-12 pb-5">
                         <img class="img-fluid" src="img/dualshock-4-listing-thumb.jpg" alt="dualshock">
                         <div class="h1">Accessori</div>
                         <div class="h4 custom_color_grey py-2">Migliora la tua esperienza PS4 con una gamma di accessori ufficiali.</div>
-                        <button type="button" class="btn btn-primary rounded-pill">Scopri di più</button>
+                        <a href="#" type="button" class="btn btn-primary rounded-pill">Scopri di più</a>
                     </div>
                     
-                </section>
-                
-                <div class="row custom_bgc_lightgrey px-4">
-                    <div class="col-sm-6 d-flex flex-column justify-content-center">
+                </div>
+            </div>
+
+            <!-- BANNER PS PLUS -->
+
+            <div class="container-fluid custom_bgc_lightgrey">
+                <div class="row px-4">
+                    <div class="col d-flex flex-column justify-content-center">
                         <img class="w-50 py-4" src="img/ps-plus-logo.png" alt="PSPlus">
                         <p>Migliora la tua esperienza PlayStation con l'accesso a multigiocatore online, giochi mensili, sconti esclusivi e altro ancora.</p>
-                        <button type="button" class="custom_btn btn btn-light rounded-pill custom_color_blue my-4">Esplora PlayStation Plus</button>
+                        <a href="#" type="button" class="custom_btn btn btn-light rounded-pill custom_color_blue my-4">Esplora PlayStation Plus</a>
                     </div>
-                    <img src="img/ps-plus-april-monthly-games-featured-image-block.png" class="d-none d-sm-block col-sm-6 " alt="april-games">
+                    <img class="d-none d-sm-block col" src="img/ps-plus-april-monthly-games-featured-image-block.png" alt="april-games">
                 </div>
-
-                
             </div>
+            
+            <!-- SALES INTRO -->
 
             <div class="h1 text-center pt-4">Nuovi sconti sul PlayStation Store</div>
             <p class="custom_color_grey text-center pb-4">Sconti pazzeschi, collezioni curate e saldi stagionali su PS5, PS4 e PS VR, tutti in un unico posto.</p>
 
+            <!-- SALES SECTIONS -->
+
             <div class="container pb-5">
+
                 <div class="row gy-5">
-                    
                     <img class="col-sm-12 col-md-4" src="img/playstation-store-games-under-20-spotlight.jpg" alt="PS Store">
                     <img class="col-sm-12 col-md-4" src="img/playstation-store-golden-week-sale-spotlight.jpg" alt="PS Store">
                     <img class="col-sm-12 col-md-4" src="img/playstation-store-free-to-play-spotlight.png" alt="PS Store">
-
                 </div>
                 
-
             </div>
 
-            <div class="row custom_bgc_darkblue px-4">
-                <div class="col-sm-6 d-flex flex-column justify-content-center">
-                    <img class="w-50 py-4" src="img/ps-now-logo-two-column.png" alt="PSNow">
-                    <p class="text-white">Ottieni l'accesso immediato a una vastissima raccolta di oltre 800 giochi per PS4, PS3 e PS2 su PS4 o PC Windows, con nuovi titoli aggiunti ogni mese.</p>
-                    <button type="button" class="custom_btn btn btn-light rounded-pill my-4">Esplora PlayStation Plus</button>
+            <!-- BANNER PS NOW -->
+            
+            <div class="container-fluid custom_bgc_darkblue">
+                <div class="row px-4">
+
+                    <div class="col-sm-6 d-flex flex-column justify-content-center">
+                        <img class="w-50 py-4" src="img/ps-now-logo-two-column.png" alt="PSNow">
+                        <p class="text-white">Ottieni l'accesso immediato a una vastissima raccolta di oltre 800 giochi per PS4, PS3 e PS2 su PS4 o PC Windows, con nuovi titoli aggiunti ogni mese.</p>
+                        <a href="#" type="button" class="custom_btn btn btn-light rounded-pill my-4">Esplora PlayStation Plus</a>
+                    </div>
+                    <img src="img/ps-now-april-featured-image-block.png" class="d-none d-sm-block col-sm-6" alt="april-games">
+    
                 </div>
-                <img src="img/ps-now-april-featured-image-block.png" class="d-none d-sm-block col-sm-6" alt="april-games">
             </div>
+            
+            <!-- SOCIALS SECTIONS -->
 
-            <div class="social_container p-5">
+            <div class="social_container py-5">
+                
                 <div class="h2 text-center pb-5">Seguici sui social media</div>
                 <div class="container">
-                    <div class="row row-cols-2 row-cols-sm-4 row-cols-md-4 gy-5">
-                        <img class="col" src="img/twitter.jpg" alt="twitter">
-                        <img class="col" src="img/facebook.jpg" alt="facebook">
-                        <img class="col" src="img/instagram.jpg" alt="instagram">
-                        <img class="col" src="img/youtube.png" alt="youtube">
+                    <div class="row row-cols-2 row-cols-sm-4 row-cols-md-4 gx-0 gy-4 text-center">
+                        <div class="col">
+                            <img class="w-75" src="img/twitter.jpg" alt="twitter">
+                        </div> 
+                        
+                        <div class="col">
+                            <img class="w-75" src="img/facebook.jpg" alt="facebook">
+                        </div>
+                        
+                        <div class="col">
+                            <img class="w-75" src="img/instagram.jpg" alt="instagram">
+                        </div>
+                        
+                        <div class="col">
+                            <img class="w-75" src="img/youtube.png" alt="youtube">
+                        </div>
+                        
                     </div>
-
                 </div>
+
             </div>
             
         </main>
 
+        <!-- FOOTER  **************************************************** -->
+
         <footer class="custom_bgc_lightblue px-2">
+
+            <!-- FOOTER TOP -->
+
             <div class="footer_top d-flex flex-column flex-lg-row justify-content-lg-between px-2">
                 <div class="pt-lg-4">
                     <img class="ps_logo py-4" src="img/ps-footer.svg" alt="ps-logo">
@@ -340,6 +393,7 @@
                         <div class="text-white">Country / Region: Italy</div>
                     </div>
                 </div>
+
                 <div class="d-flex flex-column flex-md-row justify-content-md-between pe-5 pt-lg-5">
                     <ul class="link_footer_left">
                         <li>
@@ -392,10 +446,11 @@
                         </li>
                         
                     </ul>
-
-                
                 </div>
             </div>
+
+            <!-- FOOTER BOTTOM -->
+
             <div class="footer_bottom py-4">
                 <div class="container-fluid">
                     <div class="row">
